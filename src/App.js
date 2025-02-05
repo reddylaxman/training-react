@@ -7,6 +7,8 @@ import React from "react";
 // import { Footer } from "./components/Footer";
 // import CBCPropEx from "./props/CBCPropEx";
 import { FBCPropEx } from "./props/FBCPropEx";
+import { PropChildEx } from "./props/PropChildEx";
+import { SubChild } from "./props/SubChild";
 
 export const App = () => {
   return (
@@ -28,7 +30,12 @@ export const App = () => {
     // sendFun={function(){alert("Rebel *")}}
     // />
     // </div>
-    <div><FBCPropEx username="Laxman Reddy" isMarried={false} hobbies={["Reading","Learning"]}/></div>
+    // <div><FBCPropEx username="Laxman Reddy" isMarried={false} hobbies={["Reading","Learning"]}/></div>
+    <PropChildEx num={10}>
+    
+    <h1>This is data coming from children</h1>
+    <SubChild/>
+    </PropChildEx>
   );
 };
 export default App;
