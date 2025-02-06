@@ -1,7 +1,0 @@
--Single page application have only have one html page and one tab.
--Multi page application have multiple html page and multiple tabs.
-
--What is virtual dom?
--Virtual dom is the virtual representation of UI,which is kept in a memory later synced with real dom with the help of  library called "ReactDom".
--The updation of realDom wth virtual dom.
--The entry process of updating the realDom with the help of virtual dom .

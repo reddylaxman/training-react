@@ -1,5 +1,9 @@
-import React from "react";
+import React, { Component } from 'react'
 
-export const Navbar = () => {
-  return <div className="navbar">Navbar</div>;
-};
+export default class Navbar extends Component {
+  render() {
+    return (
+      <div className='nav'>Navbar</div>
+    )
+  }
+}

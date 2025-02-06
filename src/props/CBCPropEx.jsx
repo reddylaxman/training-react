@@ -1,10 +1,11 @@
-import React, { Component } from "react";
+import React, { Component } from 'react'
 
 export default class CBCPropEx extends Component {
   render() {
     console.log(this);
     return (
-      <div >
+      <div>CBCPropEx
+
         <h1>{this.props.username}</h1>
         <h2>{this.props.age}</h2>
         {
@@ -12,10 +13,9 @@ export default class CBCPropEx extends Component {
             return <li>{hobby}</li>
           })
         }
-        <h1>{this.props.address.city}</h1>
-        <h1>{this.props.address.area}</h1>
-        <button onClick={this.props.sendFun}>Click</button>
+        <h1>{this.props.address.city}</h1> 
+        <button onClick={this.props.sendFun}>Click</button> 
       </div>
-    );
+    )
   }
 }
