@@ -6,9 +6,11 @@ import React from "react";
 // import { Sidebar2 } from "./components/Sidebar2";
 // import { Footer } from "./components/Footer";
 // import CBCPropEx from "./props/CBCPropEx";
-import { FBCPropEx } from "./props/FBCPropEx";
-import { PropChildEx } from "./props/PropChildEx";
-import { SubChild } from "./props/SubChild";
+// import { FBCPropEx } from "./props/FBCPropEx";
+// import { PropChildEx } from "./props/PropChildEx";
+// import { SubChild } from "./props/SubChild";
+// import CBCStatesEx from "./States/CBCStatesEx";
+import FBCStatesEx from "./States/FBCStatesEx";
 
 export const App = () => {
   return (
@@ -31,11 +33,12 @@ export const App = () => {
     // />
     // </div>
     // <div><FBCPropEx username="Laxman Reddy" isMarried={false} hobbies={["Reading","Learning"]}/></div>
-    <PropChildEx num={10}>
+    // <PropChildEx num={10}>
     
-    <h1>This is data coming from children</h1>
-    <SubChild/>
-    </PropChildEx>
+    // <h1>This is data coming from children</h1>
+    // <SubChild/>
+    // </PropChildEx>
+    <FBCStatesEx/>
   );
 };
 export default App;
