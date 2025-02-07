@@ -80,8 +80,8 @@
 
 // !props
 // import React, { Component } from 'react'
-// import CBCPropEx from './propsex/CBCPropEx'
-// import FBCPropEx from './propsex/FBCPropEx'
+// import CBCPropEx from './props/CBCPropEx'
+// import FBCPropEx from './props/FBCPropEx'
 
 // export default class App extends Component {
 //   render() {
@@ -108,9 +108,9 @@
 
 // !props children
 // import React from 'react'
-// import PropChildEx from './propsex/PropChildEx'
-// import SubChild from './propsex/SubChild'
-// import Child1 from './propsex/Child1'
+// import PropChildEx from './props/PropChildEx'
+// import SubChild from './props/SubChild'
+// import Child1 from './props/Child1'
 
 // const App = () => {
 //   return (
@@ -129,17 +129,28 @@
 
 
 
-// ! state examples
-import React from 'react'
-import CBCStateEx from './stateexample/CBCStateEx'
-import FBCStateEx from './stateexample/FBCStateEx'
+// // ! state examples
+// import React from 'react'
+// import CBCStateEx from './States/CBCStatesEx'
+// import FBCStateEx from './States/FBCStatesEx'
 
+// const App = () => {
+//   return (
+//     <div>
+//       //  <CBCStateEx/>
+//       <FBCStateEx/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import "./App.css"
+import { FunctionalComponent } from './props/FunctionalComponent'
 const App = () => {
   return (
-    <div>
-      {/* <CBCStateEx/> */}
-      <FBCStateEx/>
-    </div>
+    <div><FunctionalComponent clg="MRU" msg="Good Afternoon" apply={true}/></div>
   )
 }
 
