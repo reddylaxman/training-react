@@ -12,3 +12,16 @@
     background-color: magenta;
     color: blue;
 }
+
+.msg1{
+    background-color: magenta;
+    color: blue;
+}
+.msg2{
+    background-color: blue;
+    color: magenta;
+}
+::selection {
+    color: blue;
+    /* background: yellow; */
+  }

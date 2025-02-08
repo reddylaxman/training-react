@@ -13,7 +13,7 @@
     // ele
   //  <section>
   //    <h1>One JSx element</h1>
-  //   <p>lorm3
+  //   <p>lorem3
   //   </p>
   //  </section>
 // <div>
@@ -147,10 +147,16 @@
 
 import React from 'react'
 import "./App.css"
-import { FunctionalComponent } from './props/FunctionalComponent'
+import { FunctionalComponent } from './components/props/FunctionalComponent'
+import ClassComponent from './components/props/ClassComponent'
+import ControlledClassComponent from './components/controlledComponent/ControlledClassComponent'
 const App = () => {
   return (
-    <div><FunctionalComponent clg="MRU" msg="Good Afternoon" apply={true}/></div>
+    <div>
+    {/*<FunctionalComponent clg="MRU" msg="Good Afternoon" apply={true}/>
+    <ClassComponent/>*/}
+    <ControlledClassComponent/>
+    </div>
   )
 }
 
