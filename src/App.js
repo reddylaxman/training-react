@@ -145,19 +145,42 @@
 
 // export default App
 
+// import React from 'react'
+// import "./App.css"
+// import { FunctionalComponent } from './components/props/FunctionalComponent'
+// import ClassComponent from './components/props/ClassComponent'
+// import ControlledClassComponent from './components/controlledComponent/ControlledClassComponent'
+// const App = () => {
+//   return (
+//     <div>
+//     {/*<FunctionalComponent clg="MRU" msg="Good Afternoon" apply={true}/>
+//     <ClassComponent/>*/}
+//     <ControlledClassComponent/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React from 'react'
+// import  MyNavbar  from './Project/Navbar'
+// import 'bootstrap/dist/css/bootstrap.css';
+// import Posts from './Project/Post';
+//  const App = () => {
+//   return (
+//     <div><MyNavbar/>
+//     <Posts/></div>
+//   )
+// }
+// export default App
+
 import React from 'react'
-import "./App.css"
-import { FunctionalComponent } from './components/props/FunctionalComponent'
-import ClassComponent from './components/props/ClassComponent'
-import ControlledClassComponent from './components/controlledComponent/ControlledClassComponent'
+import { UseEffect } from './components/States/UseEffect'
 const App = () => {
+ 
   return (
-    <div>
-    {/*<FunctionalComponent clg="MRU" msg="Good Afternoon" apply={true}/>
-    <ClassComponent/>*/}
-    <ControlledClassComponent/>
+    <div><UseEffect/>
     </div>
   )
 }
-
 export default App
