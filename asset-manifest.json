@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/training-react/static/css/main.77cec497.css",
+    "main.js": "/training-react/static/js/main.7314d1d3.js",
+    "static/media/ANIMAL.mp3": "/training-react/static/media/ANIMAL.f1afb38f3206acd1d51f.mp3",
+    "static/media/video.mp4": "/training-react/static/media/video.8a7490950a882fdfc913.mp4",
+    "index.html": "/training-react/index.html",
+    "main.77cec497.css.map": "/training-react/static/css/main.77cec497.css.map",
+    "main.7314d1d3.js.map": "/training-react/static/js/main.7314d1d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77cec497.css",
+    "static/js/main.7314d1d3.js"
+  ]
+}
