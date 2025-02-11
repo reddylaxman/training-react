@@ -175,11 +175,14 @@
 // export default App
 
 import React from 'react'
-import { UseEffect } from './components/States/UseEffect'
+import { UseEffectEx } from './components/hooks/UseEffectEx'
+import { UseRefEx } from './components/hooks/UseRefEx'
 const App = () => {
  
   return (
-    <div><UseEffect/>
+    <div>
+    {/*<UseEffectEx/>*/}
+    <UseRefEx/>
     </div>
   )
 }

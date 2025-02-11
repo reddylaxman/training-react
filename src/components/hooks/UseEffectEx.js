@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-export const UseEffect = () => {
+export const UseEffectEx = () => {
     const [count,setCount]=useState(0);
     const [users,setUsers]=useState([]);
     console.log(users);
