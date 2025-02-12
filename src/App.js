@@ -177,13 +177,19 @@
 import React from 'react'
 import { UseEffectEx } from './components/hooks/UseEffectEx'
 import { UseRefEx } from './components/hooks/UseRefEx'
+import ContextAPI from './components/hooks/ContextAPI'
+import ContextC1 from './components/hooks/ContextC1'
 const App = () => {
  
   return (
     <div>
-    {/*<UseEffectEx/>*/}
-    <UseRefEx/>
+    {/*<UseEffectEx/>
+    <UseRefEx/>*/}
+    <ContextAPI>
+    <ContextC1/>
+    </ContextAPI>
     </div>
   )
 }
 export default App
+

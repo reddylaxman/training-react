@@ -1,9 +1,16 @@
-import React, { createContext } from 'react'
+import React, { createContext, useState } from "react";
 
-const GlobalDataProvider=createContext();
+export const GlobalDataProvider = createContext();
+const ContextAPI = (props) => {
+  const [count, setCount] = useState(0);
+  let incre = () => {
+    setCount(count + 1);
+  };
+  return (
+    <GlobalDataProvider.Provider value={{ count, incre }}>
+      {props.children}
+    </GlobalDataProvider.Provider>
+  );
+};
 
-export const ContextAPI = (props) => {
-  return <GlobalDataProvider.Provider value="MRU">
-  {props.children}
-  </GlobalDataProvider.Provider>
-}
+export default ContextAPI;
